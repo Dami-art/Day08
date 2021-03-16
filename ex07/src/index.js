@@ -5,8 +5,8 @@ function addThree(){
     console.log(addThree(sum));
 }
 function addFive(){
-    sum = sum + 5;
-console.log(addFive(sum));
+    var sum = sum + 5;
+console.log(sum);
 }
 function addThree();
 function addFive();
