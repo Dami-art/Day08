@@ -1,10 +1,20 @@
 //Write code bellow this line
-
-function convertStrToInt(str){
-    res =  res * num,
+var sum = 0;
+function addThree(){
+    sum = sum + 3;
+    console.log(addThree(sum));
 }
-convertStrToInt(str);
+function addFive(){
+    sum = sum + 5;
+console.log(addFive(sum));
+}
+function addThree();
+function addFive();
+
 //Only change code above this line
 
-module.exports = convertStrToInt;
+module.exports = {
+    addThree,
+    addFive
+};
 
