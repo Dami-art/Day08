@@ -1,13 +1,16 @@
 //Write code bellow this line
 var sum = 0;
+
 function addThree(){
     sum = sum + 3;
     console.log(addThree(sum));
 }
+
 function addFive(){
-    var sum = sum + 5;
+    sum = sum + 5;
 console.log(sum);
 }
+
 function addThree();
 function addFive();
 
