@@ -1,12 +1,12 @@
 //Write code bellow this line
 var sum = 0;
 
-function addThree(){
+function addThree() {
     sum = sum + 3;
     console.log(addThree(sum));
 }
 
-function addFive(){
+function addFive() {
     sum = sum + 5;
 console.log(sum);
 }
